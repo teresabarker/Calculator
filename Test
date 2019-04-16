@@ -1,1 +1,23 @@
+package com.company;
+
+import org.junit.*;
+import org.junit.Assert;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
+public class Test {
+
+    // these Test's purpose are to to test our addition method
+
+    @org.junit.Test
+    public void additionUnitTestTrue() {
+        assertTrue(Addition.add(5,5) == 10);
+    }
+
+    @org.junit.Test
+    public void additionUnitTestFalse() {
+        assertFalse(Addition.add(5,5) == 7);
+    }
+}
 
