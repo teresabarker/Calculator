@@ -1,1 +1,11 @@
+package com.company;
+
+public class Addition {
+
+// Using methods like this that have input and output are MODULAR and thus TESTABLE
+    public static int add(int num1, int num2) {
+
+        return num1 + num2;
+        }
+}
 
